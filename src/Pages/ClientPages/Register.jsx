@@ -8,14 +8,14 @@ function Register() {
       
       <div className="absolute text-black top-4 left-4 text-xl font-bold">App</div>
       </Link>
-      <div className="bg-white p-8 rounded shadow-md w-auto lg:w-[500px]">
+      <div className="bg-white p-8 rounded shadow-md lg:w-[500px]">
         <h2 className="text-2xl font-bold mb-6 text-center">Create an account</h2>
         <form className='p-x-4 rounded gap-y-[16px]'>
           <div className="mb-2">
             <input
               type="email"
               placeholder="email@domain.com"
-              className="lg:w-[400px] w-auto h-[40px] border border-gray-300 rounded"
+              className="lg:w-[400px] w-[400px] ml-1 h-[40px] border border-gray-300 rounded"
             />
           </div>
           <div className="mb-2">
