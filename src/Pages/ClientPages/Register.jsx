@@ -15,7 +15,7 @@ function Register() {
             <input
               type="email"
               placeholder="email@domain.com"
-              className="w-[400px] h-[40px] border border-gray-300 rounded"
+              className="lg:w-[400px] w-auto h-[40px] border border-gray-300 rounded"
             />
           </div>
           <div className="mb-2">
