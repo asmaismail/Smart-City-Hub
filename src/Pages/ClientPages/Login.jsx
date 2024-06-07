@@ -13,9 +13,9 @@ function Login() {
   };
 
   return (
-    <div className="min-h-screen w-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="min-h-screen lg:w-screen w-auto lg:mx-0 mx-3  flex flex-col items-center justify-center bg-gray-100">
       <div className="cursor-pointer text-black absolute top-4 left-4 text-xl font-bold">App</div>
-      <div className="bg-white p-8 rounded shadow-md w-[400px]">
+      <div className="bg-white p-8 rounded shadow-md lg:w-[400px] w-auto">
         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
