@@ -17,7 +17,7 @@ const House = () => {
   {["House01", "House02", "House03"].map((house) => (
     <div key={house}>
       <button
-        className={`btn ${
+        className={`ml-2 btn ${
           activeTab === house ? "btn-light" : "btn-secondary"
         } me-2`}
         onClick={() => handleTabClick(house)}
@@ -33,7 +33,6 @@ const House = () => {
 
             <div className="mx-6 border-2 rounded-sm w-[930px]">
               <div className="card-body w-[920px]">
-                {/* <h5 className="card-title">{activeTab}</h5> */}
                 <table className="table  mt-[28px] h-[30px] w-1/2">
                   <thead>
                     <tr>

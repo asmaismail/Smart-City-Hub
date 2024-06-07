@@ -10,10 +10,15 @@ const Sidebar = () => {
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
   return (
     <div className="d-flex">
-      <div className="border-end h-screen" style={{ width: "256px" }}>
+      <div className="border-end h-screen lg:w-[256px] ${isSidebarOpen ? 'block' : 'hidden'} lg:block`}" >
         <div className="mt-[24px] ml-[24px] text-[20px] font-bold">
           Smart City Hub
         </div>

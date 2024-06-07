@@ -6,16 +6,14 @@ function Login() {
     event.preventDefault();
     const form = event.target;
     if (form.checkValidity()) {
-      // Form is valid, proceed with submission logic
       console.log('Form submitted');
     } else {
-      // Form is invalid
       console.log('Form is invalid');
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+    <div className="min-h-screen w-screen flex flex-col items-center justify-center bg-gray-100">
       <div className="cursor-pointer text-black absolute top-4 left-4 text-xl font-bold">App</div>
       <div className="bg-white p-8 rounded shadow-md w-[400px]">
         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>

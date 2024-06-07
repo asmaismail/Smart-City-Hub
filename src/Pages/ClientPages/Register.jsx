@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Register() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center  overflow-x-hidden lg:m-0 mx-4 min-h-screen bg-gray-100">
       <Link to ="/home">
       
       <div className="absolute text-black top-4 left-4 text-xl font-bold">App</div>
