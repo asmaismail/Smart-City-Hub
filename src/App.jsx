@@ -6,10 +6,12 @@ import AddDevice from './Pages/AdminPages/AddDevice'
 import Houses from './Components/AdminHouses'
 import { Route, Routes } from "react-router-dom";
 import {path} from './Assets/path' 
+import { DeviceProvider } from './Context/DeviceContext'
 
 
 const App = () => {
   return (
+    <DeviceProvider>
     <>
        <Routes>
        <Route path={path.landing} element={<Login />} />
@@ -19,6 +21,7 @@ const App = () => {
        <Route path={path.adddevice} element={<AddDevice />} />
        </Routes>
     </>
+    </DeviceProvider>
   )
 }
 
