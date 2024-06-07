@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 function Register() {
   return (
-    <div className="flex items-center justify-center  overflow-x-hidden lg:m-0 mx-4 min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center  overflow-x-hidden lg:m-0 mx-4 min-h-screen">
       <Link to ="/home">
       
       <div className="absolute text-black top-4 left-4 text-xl font-bold">App</div>
       </Link>
-      <div className="bg-white p-8 rounded shadow-md w-[500px]">
+      <div className="bg-white p-8 rounded shadow-md w-auto lg:w-[500px]">
         <h2 className="text-2xl font-bold mb-6 text-center">Create an account</h2>
         <form className='p-x-4 rounded gap-y-[16px]'>
           <div className="mb-2">
