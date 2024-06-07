@@ -51,32 +51,32 @@ const House = () => {
                             <p className="text-[#6b7280] font-bold">description</p>
                         </td>
                     </tr>
-                    <tr className="border-t-2">
+                    <tr className="border-b-2">
                       <td>Light 01</td>
                       <td className="py-1 px-2 mt-1 inline-flex text-md leading-5 rounded-md bg-success text-white">on</td>
                       <td>description of this light(can be empty)</td>
                     </tr>
-                    <tr className="border-t-2">
+                    <tr className="border-b-2">
                       <td>Light 02</td>
                       <td className="py-1 px-2 mt-1 inline-flex text-md leading-5 rounded-md bg-success text-white">on</td>
                       <td>description of this light(can be empty)</td>
                     </tr>
-                    <tr className="border-t-2">
+                    <tr className="border-b-2">
                       <td>Light 03</td>
                       <td className="py-1 px-2 mt-1 inline-flex text-md leading-5 rounded-md bg-success text-white">on</td>
                       <td>description of this light(can be empty)</td>
                     </tr>
-                    <tr className="border-t-2">
+                    <tr className="border-b-2">
                       <td>Light 04</td>
                       <td className="py-1 px-2 mt-1 inline-flex text-md leading-5 rounded-md bg-success text-white">on</td>
                       <td>description of this light(can be empty)</td>
                     </tr>
-                    <tr className="border-t-2">
+                    <tr className="border-b-2">
                       <td>Light 05</td>
                       <td className="py-1 px-2 mt-1 inline-flex text-md leading-5 rounded-md bg-danger text-white">off</td>
                       <td>description of this light(can be empty)</td>
                     </tr>
-                    <tr className="border-t-2">
+                    <tr className="border-b-2">
                       <td>Light 06</td>
                       <td className="py-1 px-2 mt-1 inline-flex text-md leading-5 rounded-md bg-danger text-white">
                         off</td>

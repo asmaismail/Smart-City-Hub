@@ -10,7 +10,7 @@ const AdminLayout = () => {
   return (
     <>
        <div className="d-flex">
-      <div className="border-end h-screen" style={{ width: "256px" }}>
+      <div className="border-end h-screen" style={{ width: "220px" }}>
         <div className="mt-[24px] ml-[24px] text-[20px] font-bold">
           Smart City Hub
         </div>

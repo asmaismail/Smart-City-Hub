@@ -46,7 +46,8 @@ function Login() {
         <p className="mt-4 text-sm text-center text-gray-600">
           Don't have an account yet?
           <a href="/register" className="text-gray-600 decoration-transparent">
-            Click here to register.
+            Click here to register.<br/>
+            <Link to ="/admindashboard" className='decoration-transparent text-black'>Login as Admin</Link>
           </a>
         </p>
       </div>

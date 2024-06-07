@@ -63,7 +63,7 @@ const AdminHouses = () => {
               </div>
               <div className="card mt-0 mx-2">
                 <div className="card-body h-[448px]">
-                  <table className="table-responsive w-[1020px]">
+                  <table className="table-responsive w-[900px]">
                     <thead className="-mt-8">
                       <tr>
                         <th>Title</th>
